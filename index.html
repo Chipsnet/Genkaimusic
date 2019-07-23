@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="bulma.css">
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/barba.js/1.0.0/barba.min.js"></script>
+        <script src="http://code.jquery.com/jquery-3.3.1.min.js"></script>
         <style>
             .has-image {
                 background-image: url("https://i.gyazo.com/7af423f20ba420216b9c1202789bd8d3.jpg");
@@ -44,7 +46,7 @@
                                 <a class="navbar-item is-active">
                                     Home
                                 </a>
-                                <a class="navbar-item">
+                                <a class="navbar-item" href="works.html">
                                     Twitter
                                 </a>
                                 <a class="navbar-item">
@@ -62,12 +64,17 @@
             <!-- 中央部分 -->
             <div class="hero-body">
                 <div class="container has-text-centered">
-                    <h1 class="title is-1 has-text-grey-darker has-fuchidori">
-                        限界音楽村
-                    </h1>
-                    <h2 class="subtitle">
-                        限界まで奏で続ける音楽レーベル
-                    </h2>
+                    <main id="barba-wrapper">
+                        <div class="barba-container">
+                            <!-- barba読み込み部分 -->
+                            <h1 class="title is-1 has-text-grey-darker has-fuchidori">
+                                限界音楽村
+                            </h1>
+                            <h2 class="subtitle">
+                                限界まで奏で続ける音楽レーベル
+                            </h2>
+                        </div>
+                    </main>
                 </div>
             </div>
 
@@ -88,4 +95,8 @@
             </div>
         </section>
     </body>
+    <!-- barbaの初期化 -->
+    <script>
+        Barba.Pjax.init();
+    </script>
 </html>
