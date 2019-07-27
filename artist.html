@@ -32,9 +32,9 @@
             $('a').click(function(){
                 // URLを取得する
                 var url = $(this).attr('href');
-
+                console.log(url);
                 // URLが空ではない場合
-                if (url != '') {
+                if (url !== undefined) {
                     // フェードアウトしてから、取得したURLにリンクする
                     $('#wrapper').fadeOut(1000);
                     setTimeout(function(){
