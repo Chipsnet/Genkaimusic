@@ -34,7 +34,7 @@
                 var url = $(this).attr('href');
 
                 // URLが空ではない場合
-                if (url != '') {
+                if (url !== undefined) {
                     // フェードアウトしてから、取得したURLにリンクする
                     $('#wrapper').fadeOut(1000);
                     setTimeout(function(){
@@ -102,7 +102,7 @@
                     <div class="container">
                         <!-- ページ下部メニュー -->
                         <ul>
-                            <li><a class="is-active">Top</a></li>
+                            <li class="is-active"><a>Top</a></li>
                             <li><a href="artist.html">Artist</a></li>
                             <li><a>Release</a></li>
                             <li><a>Contact</a></li>
