@@ -3273,6 +3273,16 @@ fieldset[disabled] .button {
   width: 128px;
 }
 
+.image.is-300x300 {
+  height: 300px;
+  width: 300px;
+}
+
+.image.is-270x270 {
+  height: 270px;
+  width: 270px;
+}
+
 .notification {
   background-color: whitesmoke;
   border-radius: 4px;
