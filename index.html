@@ -4,6 +4,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta charset="utf-8">
         <title></title>
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:800&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <link rel="stylesheet" href="bulma.css">
         <style>
             .has-image {
@@ -18,6 +20,9 @@
                 color: #000;
                 -webkit-text-stroke: 1px #FFF;
                 text-stroke: 1px #FFF;
+            }
+            body{
+              font-family: 'M PLUS 1p', sans-serif;
             }
         </style>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -111,5 +116,17 @@
                 </nav>
             </div>
         </section>
+        <script type="text/javascript">
+        document.querySelector('.navbar-burger').addEventListener("click", toggleNav);
+
+        function toggleNav() {
+                var nav = document.querySelector('.navbar-menu');
+                if(nav.className == "navbar-menu") {
+                    nav.className = "navbar-menu is-active";
+                } else {
+                    nav.className = "navbar-menu";
+                }
+        }
+        </script>
     </body>
 </html>

@@ -5,6 +5,8 @@
         <meta charset="utf-8">
         <title></title>
         <link rel="stylesheet" href="bulma.css">
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:800&display=swap" rel="stylesheet">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <style>
             .has-image {
                 background-image: url("https://i.gyazo.com/cfd380995e4034a44d0a38cb445c6bbf.jpg");
@@ -18,6 +20,9 @@
                 color: #000;
                 -webkit-text-stroke: 1px #FFF;
                 text-stroke: 1px #FFF;
+            }
+            body{
+              font-family: 'M PLUS 1p', sans-serif;
             }
         </style>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
@@ -53,21 +58,21 @@
                 <header class="navbar">
                     <div class="container">
                         <div class="navbar-brand">
-                            <a class="navbar-item">
+                            <a class="navbar-item" href="./">
                                 <!-- 団体名 -->
                                 <h2 class="title is-4">限界音楽村</h2>
                             </a>
-                            <span class="navbar-burger burger" data-target="navbarMenuHeroC">
+                            <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false" data-target="navbarBasicExample">
                                 <!-- ハンバーガーメニュー -->
-                                <span></span>
-                                <span></span>
-                                <span></span>
-                            </span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                                <span aria-hidden="true"></span>
+                            </a>
                         </div>
                         <div id="navbarMenuHeroC" class="navbar-menu">
                             <div class="navbar-end">
                                 <!-- PC用メニュー -->
-                                <a class="navbar-item is-active">
+                                <a class="navbar-item is-active" href="./">
                                     Home
                                 </a>
                                 <a class="navbar-item" href="https://twitter.com/genkaimusic/" target="_blank">
@@ -95,25 +100,25 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/2226b16a9ccc4858802d26fe5b6c02ab.jpg"  alt=""></a>
+                                <a href="https://twitter.com/mitsuki_hotta" target="_blank"><img class="is-rounded" src="https://i.gyazo.com/2226b16a9ccc4858802d26fe5b6c02ab.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">ミツキ</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/e5c30383a0f57a1c9ea1cf5c54da8dad.png"  alt=""></a>
+                                <a href="https://twitter.com/seruire" target="_blank"><img class="is-rounded" src="https://i.gyazo.com/e5c30383a0f57a1c9ea1cf5c54da8dad.png"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">SERUiRE</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/8a6e6b8780e473316dc6babbb7925492.jpg"  alt=""></a>
+                                <a href="https://twitter.com/HGMP_JP"><img class="is-rounded" src="https://i.gyazo.com/8a6e6b8780e473316dc6babbb7925492.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Heaven's Gimmick</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/2936457e2ca8e5a722e2c6a4c0385818.jpg"  alt=""></a>
+                                <a href="https://twitter.com/evitosovite"><img class="is-rounded" src="https://i.gyazo.com/2936457e2ca8e5a722e2c6a4c0385818.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Antem</h3>
                         </div>
@@ -121,25 +126,25 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/bfcb23c6905fe24df882e07068b2d564.png"  alt=""></a>
+                                <a href="https://twitter.com/Bistalink"><img class="is-rounded" src="https://i.gyazo.com/bfcb23c6905fe24df882e07068b2d564.png"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Bistalink</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/f9b764f8b5f140a07dd9e6515a2a21d5.png"  alt=""></a>
+                                <a href="https://twitter.com/bondbondoo"><img class="is-rounded" src="https://i.gyazo.com/f9b764f8b5f140a07dd9e6515a2a21d5.png"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">bondbond</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/6791c4569a9b5f67dec4384420839706.png"  alt=""></a>
+                                <a href="https://twitter.com/musicbyfarallel"><img class="is-rounded" src="https://i.gyazo.com/6791c4569a9b5f67dec4384420839706.png"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Farallel</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/ece3da54daade0df3f6fb28721f9a411.jpg"  alt=""></a>
+                                <a href="https://twitter.com/Kuroma_oto"><img class="is-rounded" src="https://i.gyazo.com/ece3da54daade0df3f6fb28721f9a411.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">kuroma</h3>
                         </div>
@@ -147,25 +152,25 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/acee032e28c6ba1c611045b921f0d14d.jpg"  alt=""></a>
+                                <a href="https://twitter.com/Hs7b_"><img class="is-rounded" src="https://i.gyazo.com/acee032e28c6ba1c611045b921f0d14d.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">はせべ</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/234d0e69a64a07939105be4128533d10.jpg"  alt=""></a>
+                                <a href="https://twitter.com/tutetute777"><img class="is-rounded" src="https://i.gyazo.com/234d0e69a64a07939105be4128533d10.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">つてつて</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/e18593dd2a9b721a9f9fec6c453e6c6a.jpg"  alt=""></a>
+                                <a href="https://twitter.com/_syuuroku"><img class="is-rounded" src="https://i.gyazo.com/e18593dd2a9b721a9f9fec6c453e6c6a.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">syuuroku</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/8f93a435a5f156fdd4d02e7e113cacdd.jpg"  alt=""></a>
+                                <a href="https://twitter.com/T4kAn0"><img class="is-rounded" src="https://i.gyazo.com/8f93a435a5f156fdd4d02e7e113cacdd.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">T4kAn0</h3>
                         </div>
@@ -173,13 +178,13 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/6b3d00b13f2135b14500b77306f59c26.jpg"  alt=""></a>
+                                <a href="https://twitter.com/furengaruda"><img class="is-rounded" src="https://i.gyazo.com/6b3d00b13f2135b14500b77306f59c26.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">風恋Garuda</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/64c9027727b398c940a239c956f5a724.jpg"  alt=""></a>
+                                <a href="https://twitter.com/_Raisei"><img class="is-rounded" src="https://i.gyazo.com/64c9027727b398c940a239c956f5a724.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Raisei</h3>
                         </div>
@@ -192,19 +197,13 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/a461622c5217be4cf2460912a75597eb.jpg"  alt=""></a>
-                            </figure>
-                            <h3 class="title is-3">Sugar</h3>
-                        </div>
-                        <div class="column">
-                            <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/608b5950a0e91321cf99200af3a5f064.png"  alt=""></a>
+                                <a href="https://twitter.com/sl_dndn"><img class="is-rounded" src="https://i.gyazo.com/608b5950a0e91321cf99200af3a5f064.png"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">SELDO</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/c7b045384f842bca79ebcd3c7a10d2e8.jpg"  alt=""></a>
+                                <a href="https://twitter.com/Chinatsu_YASAI"><img class="is-rounded" src="https://i.gyazo.com/c7b045384f842bca79ebcd3c7a10d2e8.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">千夏</h3>
                         </div>
@@ -213,13 +212,13 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/55295d5d5c993501a56701ef57cc1a5a.jpg"  alt=""></a>
+                                <a href="https://twitter.com/kinokotan"><img class="is-rounded" src="https://i.gyazo.com/55295d5d5c993501a56701ef57cc1a5a.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">きのたん</h3>
                         </div>
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="#"><img class="is-rounded" src="https://i.gyazo.com/6d204f7995d2eb9515fb219093193496.jpg"  alt=""></a>
+                                <a href="https://twitter.com/Mure_1642"><img class="is-rounded" src="https://i.gyazo.com/6d204f7995d2eb9515fb219093193496.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">ミュールは迷子</h3>
                         </div>
@@ -228,7 +227,7 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/b9012d2dfbb64a6cc0ce72fc5abb0140.png"  alt=""></a>
+                                <a href="https://twitter.com/Vintage_1073"><img class="is-rounded" src="https://i.gyazo.com/b9012d2dfbb64a6cc0ce72fc5abb0140.png"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Vintage_1073</h3>
                         </div>
@@ -237,7 +236,7 @@
                     <div class="columns is-desktop">
                         <div class="column">
                             <figure class="image is-270x270 container">
-                                <a href="https://twitter.com"><img class="is-rounded" src="https://i.gyazo.com/7d32c00e562a2f420bc86754f6c0ff69.jpg"  alt=""></a>
+                                <a href="https://twitter.com/minatoo86"><img class="is-rounded" src="https://i.gyazo.com/7d32c00e562a2f420bc86754f6c0ff69.jpg"  alt=""></a>
                             </figure>
                             <h3 class="title is-3">Minato86</h3>
                         </div>
@@ -259,5 +258,17 @@
                 </nav>
             </div>
         </section>
+        <script type="text/javascript">
+        document.querySelector('.navbar-burger').addEventListener("click", toggleNav);
+
+        function toggleNav() {
+                var nav = document.querySelector('.navbar-menu');
+                if(nav.className == "navbar-menu") {
+                    nav.className = "navbar-menu is-active";
+                } else {
+                    nav.className = "navbar-menu";
+                }
+        }
+        </script>
     </body>
 </html>
