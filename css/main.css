@@ -1,0 +1,16 @@
+.has-image {
+    background-image: url("https://i.gyazo.com/cfd380995e4034a44d0a38cb445c6bbf.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-color: #999;
+}
+.has-fuchidori {
+    color: #000;
+    -webkit-text-stroke: 1px #FFF;
+    text-stroke: 1px #FFF;
+}
+body{
+  font-family: 'M PLUS 1p', sans-serif;
+}
