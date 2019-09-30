@@ -16,9 +16,14 @@
         <meta property="og:description" content="限界音楽村のアーティスト一覧です。" />
         <meta property="og:image" content="https://i.gyazo.com/a563e06afbeb48c2eaafc9eb07b3003d.jpg" />
 
+        <!-- Google fonts -->
+        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:800&display=swap" rel="stylesheet">
+
+        <!-- css -->
         <link rel="stylesheet" href="../css/bulma.css">
         <link rel="stylesheet" href="../css/main.css">
-        <link href="https://fonts.googleapis.com/css?family=M+PLUS+1p:800&display=swap" rel="stylesheet">
+
+        <!-- Javascript -->
         <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
         <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.1/jquery.min.js"></script>
         <script type="text/javascript">
@@ -32,7 +37,7 @@
             $('a').click(function(){
                 // URLを取得する
                 var url = $(this).attr('href');
-                console.log(url);
+
                 // URLが空ではない場合
                 if (url !== undefined) {
                     // フェードアウトしてから、取得したURLにリンクする
